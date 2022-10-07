@@ -198,7 +198,7 @@ h4{
     /* Footer */
     .footer-img{
         width: 150px;
-        height: 20px;
+        height: 40px;
         margin-top: 10px;
 
     }
@@ -228,6 +228,24 @@ h4{
         padding: 0;
 
     }
+    
+    .footer-a{
+        padding: 5px ;
+        margin-left: 5px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+    .footer-a:hover{
+        color: white;
+        background-color: black;
+    }
+    .footer-last-div{
+        text-align: center;
+    }
+    .footer-last-div p{
+        display: inline;
+    }
 
 
     /* Tablet and Mobile */
@@ -235,7 +253,7 @@ h4{
         body{
             margin: 0;
             padding: 0;
-            
+            text-align: center;
             
         }
         
@@ -274,7 +292,7 @@ h4{
 
     #Hero-section div h1 {
             font-family: 'Lato', sans-serif;
-            padding-top: 20px
+            padding-top: 10%;
             font-size: 36px;
             font-weight: 700;
             line-height: 43px;
@@ -298,7 +316,7 @@ h4{
     background-color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(194, 180, 180);
-    padding: 30px 40px;
+    padding: 10px;
   } 
 
  .main-img{
@@ -375,5 +393,26 @@ h4{
             
             
         }
+        
+       
+        .footer-div-mini{
+            padding: 20px;
+            
+        }
+        .footer-a{
+            padding: 5px ;
+            margin-left: 5px;
+            border-radius: 100%;
+            border:  1px solid black;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+        .footer-a:hover{
+            color: white;
+            background-color: black;
+        }
+        
+        
 
     }    
