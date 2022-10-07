@@ -235,7 +235,7 @@ h4{
         body{
             margin: 0;
             padding: 0;
-            text-align: center;
+            
             
         }
         
@@ -268,13 +268,13 @@ h4{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 300px;
+        height: 400px;
     
 }
 
     #Hero-section div h1 {
             font-family: 'Lato', sans-serif;
-            padding-top: 10%;
+            padding-top: 20px
             font-size: 36px;
             font-weight: 700;
             line-height: 43px;
@@ -353,7 +353,7 @@ h4{
         background-image: url(./images/hero-image.jpg);
         background-position: center;
         background-size: cover;
-        height: 300px;
+        height: 400px;
         background-repeat: no-repeat;
         color: white;
         background-attachment: fixed;
