@@ -298,11 +298,11 @@ h4{
     background-color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgb(194, 180, 180);
-    padding: 30px;
+    padding: 30px 40px;
   } 
 
  .main-img{
-    width: 350px;
+    width: 250px;
 } 
 
 .main-header{
