@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+
+
+}
+
+
+
+/* Nav */
+
+.logo{
+    width: 150px;
+    height: 100px;
+    
+}
+.nav-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+    
+
+}
+
+
+/* Hero-section */
+#Hero-section{
+    background-image: url(./images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+
+#Hero-section div h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+     padding:100px 50px 0;
+     color: #fff;
+
+}
+#Hero-section div p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+    padding:0 400px 0 50px;
+
+
+}
+
+/* Main */
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; 
+  }
+
+  .main-div{
+    margin: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(194, 180, 180);
+    padding: 30px;
+  } 
+
+ .main-img{
+    width: 300px;
+} 
+
+.main-header{
+    font-family: 'Lato';
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+    
+}
+
+
+.main-p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button{
+    border: 2px solid #00A652;
+    padding: 10px 80px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+
+.button:hover{
+    color: #00A652;
+    background-color: white;
+}
+
+/* Call to Action */
+.cta{
+    text-align: center;
+}
+.cta-h{
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+    
+}
+.cta-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Get in touch */
+.get-in{
+    background-image: url(./images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    }
+    .get-in .get-in-text h1{
+        font-family: 'Lato', sans-serif;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 55px;
+         color: #fff;
+    }
+
+    .get-in-text{
+        text-align: center;
+        padding-top: 5%;
+    
+        
+        
+    }
+    .cont{
+
+        border: 2px solid #00A652;
+        padding: 10px 80px;
+        border-radius: 8px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        display: inline-block;
+        background-color: white;
+        color:#00A652;
+
+    }
+    .cont:hover{
+        color: #fff;
+        background-color:#00A652;
+    }
+
+    
+
+    /* Footer */
+    .footer-img{
+        width: 150px;
+        height: 20px;
+        margin-top: 10px;
+
+    }
+
+    .footer-div1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 20px ;
+    }
+
+    .footer-div-mini{
+        margin-left: 30px;
+    }
+    
+    .footer-p {
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 0;
+    }
+    .footer-h{
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    /* Tablet and Mobile */
+    @media screen and (max-width:999px) {
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            
+        }
+        
+        h3{
+
+            font-family: 'Lato';
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 27px;
+            text-align: center;
+        
+        
+        
+        }
+        h4{
+            font-family: 'Lato';
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 32px;
+        
+        
+        }    
+       
+    
+    /* Hero-section */
+
+    #Hero-section {
+        background-image: url(./images/footer.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 300px;
+    
+}
+
+    #Hero-section div h1 {
+            font-family: 'Lato', sans-serif;
+            padding-top: 10%;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 43px;
+            padding: 50px  20px 20px 20px;
+
+}
+    #Hero-section div p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: white;
+        padding:5px 20px;
+
+}
+
+
+/* Main */
+.main-div{
+    margin: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(194, 180, 180);
+    padding: 30px;
+  } 
+
+ .main-img{
+    width: 350px;
+} 
+
+.main-header{
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    padding: 10px;
+    
+}
+
+
+.main-p{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding:5px;
+}
+
+.button{
+    border: 2px solid #00A652;
+    padding: 10px 80px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    background-color: green;
+    color: white;
+}
+
+
+.button:hover{
+    color: #00A652;
+    background-color: white;
+}
+
+/* Call to Action */
+    .cta, .container{
+        padding: 20px;
+    }
+
+    /* Get In  */
+    .get-in{
+        background-image: url(./images/hero-image.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        background-repeat: no-repeat;
+        color: white;
+        background-attachment: fixed;
+        }
+
+        .get-in .get-in-text h1{
+             font-family: 'Lato', sans-serif;
+            padding-top: 10%;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 43px;
+            padding: 50px  20px 20px 20px;
+        }
+    
+        .get-in-text{
+            text-align: center;
+            padding-top: 5%;
+        
+            
+            
+        }
+
+    }    
