@@ -257,23 +257,6 @@ h4{
 
 
     /* Contact Page */
-    .contact{
-        display: flex;
-        margin: 100px 200px;
-
-    }
-    .contact-img{
-        width: 400px;
-    }
-    .sec1{
-
-        background-position: center;
-        background-size: 20px  40px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        text-align: center;
-        padding: 20px 50px;
-    }
     
     .contact-h{
         font-family: "Lato";
@@ -294,15 +277,6 @@ h4{
     
     }
     
-    .contact-t{
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 19px;
-    
-        
-    
-    }
 
 .contact-form{
     width: 100%;
@@ -381,7 +355,7 @@ form input, form textarea{
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 400px;
-        
+        padding-top: 100px;
     
 }
 
@@ -507,5 +481,25 @@ form input, form textarea{
         }
         
         
+    /* CONTACT  */
+    .contact-form{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px rgb(194, 180, 180);
+    }
+    
+
+    
 
     }    
